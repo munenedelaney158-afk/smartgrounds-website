@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartGrounds Landscaping</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f7f5;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #14532d, #16a34a);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #064e3b;
+      padding: 12px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #86efac;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #14532d;
+      margin-bottom: 15px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #16a34a;
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .whatsapp-btn:hover {
+      background: #1ebe5d;
+    }
+
+    .floating-whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 15px;
+      border-radius: 50%;
+      text-decoration: none;
+      font-size: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      background: #064e3b;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>SmartGrounds Landscaping</h1>
+  <p>Transforming Outdoor Spaces into Beautiful Landscapes</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>At SmartGrounds Landscaping, we specialize in creating and maintaining beautiful outdoor environments. From residential gardens to commercial landscapes, we bring creativity, precision, and care to every project.</p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Garden Design</h3>
+      <p>Custom landscape designs tailored to your space and style.</p>
+    </div>
+    <div class="card">
+      <h3>Lawn Maintenance</h3>
+      <p>Regular lawn care including mowing, trimming, and fertilization.</p>
+    </div>
+    <div class="card">
+      <h3>Tree & Hedge Care</h3>
+      <p>Professional pruning, shaping, and maintenance services.</p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <h2>Our Work</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Modern Garden Setup</h3>
+      <p>Designed a clean, modern outdoor space for a residential home.</p>
+    </div>
+    <div class="card">
+      <h3>Commercial Landscaping</h3>
+      <p>Maintained and improved landscaping for a business property.</p>
+    </div>
+    <div class="card">
+      <h3>Backyard Transformation</h3>
+      <p>Turned an unused backyard into a relaxing green space.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: smartgrounds@email.com</p>
+  <p>Phone: +254 700 000 000</p>
+  <a class="whatsapp-btn" href="https://wa.me/254724597217" target="_blank">Chat with us on WhatsApp</a>
+</section>
+
+<a class="floating-whatsapp" href="https://wa.me/254724597217" target="_blank">💬</a>
+
+<footer>
+  <p>© 2026 SmartGrounds Landscaping</p>
+</footer>
+
+</body>
+</html>
